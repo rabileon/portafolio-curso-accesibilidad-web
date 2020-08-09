@@ -34,6 +34,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+textarea {
+  color: black;
+  font-family: var(--secondary-font);
+  font-size: 16px;
+}
 
 /*--- end of reset ----*/
 
@@ -44,7 +49,7 @@ img {
   --main-font: "Oswald", sans-serif;
   --secondary-font: "Open Sans", sans-serif;
   --shadow: rgba(0, 0, 0, 0.75);
-  --verde: #7ac943;
+  --verde: #69ff00;
 }
 
 body, header, section {
@@ -266,10 +271,11 @@ nav {
   width: 30%;
 }
 
-.form-label,.message-input {
+.form-label {
   color: var(--verde);
   font-family: var(--secondary-font);
 }
+
 
 
 textarea:focus{
@@ -279,6 +285,8 @@ textarea:focus{
 
 input {
   width: 100%;
+  font-family: var(--secondary-font);
+  font-size: 16px;
 }
 
 input:focus {
